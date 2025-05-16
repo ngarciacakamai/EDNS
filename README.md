@@ -18,4 +18,4 @@ myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3|4.4.4.4|5.5.5.5
 
 The script updates and pushes the change live by activating the zone inmidiatelly. So please proceed with caution.
 
-You will find the .js script and the .txt file in this gidhup directory, update your edgerc location and account SW accordingly.
+You will find the .js script and the .txt file in this gidhub directory, update your edgerc location and account SW accordingly.
