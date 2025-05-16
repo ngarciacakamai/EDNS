@@ -3,12 +3,9 @@ PUT Secondary Zone Master Update By Zone List Items.
 
 The Script uses NodeJS, you can download it at: https://nodejs.org/en/download
 
-The script uses a .txt file as an input, the file needes to have all the list of zones you want to update and their current and any new zone master IP, listed in the following way:
+The script uses a .txt file as an input, the file needs to have all the list of zones you want to update and their current and any new zone master IP, listed in the following way:
 
 myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3
-myzone1.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3
-myzone2.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3
-myzone3.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3
 
 If you want to add more IP add them separated by a pipe:
 
