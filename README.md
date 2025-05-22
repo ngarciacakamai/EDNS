@@ -12,7 +12,7 @@ If you want to add more IPs add them separated by a pipe:
 myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3|4.4.4.4
 
 
-Keep in mind that this script will overwrite the configuration, so if you need to keep the existing IPs and adding an additional IP just add the existing IP and the new IP at the end of the line:
+Keep in mind that this script will overwrite the configuration, so if you need to keep the existing IPs and adding an additional IP just add the existing IPs and the new IP at the end of the line:
 
 myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3|4.4.4.4|5.5.5.5
 
