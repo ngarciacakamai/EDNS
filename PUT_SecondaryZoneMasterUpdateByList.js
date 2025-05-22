@@ -7,7 +7,7 @@ const eg = new EdgeGrid({
   section: 'default'
 });
 
-const accountSwitchKey = "1-1WQ7AP:1-2RBL";
+const accountSwitchKey = "XXXXXXX"; //update this, with Customer account SW value.
 
 const rl = readline.createInterface({
   input: fs.createReadStream('onezonetest.txt'),
