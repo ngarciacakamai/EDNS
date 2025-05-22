@@ -27,6 +27,7 @@ The path line will look like this:
 
 Akamai employes:
     `/config-dns/v2/zones/${zonename.trim()}?accountSwitchKey=${accountSwitchKey}`,
+
 Akamai Customers:
     `/config-dns/v2/zones/${zonename.trim()}`,
 
