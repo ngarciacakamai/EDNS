@@ -18,4 +18,15 @@ myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3|4.4.4.4|5.5.5.5
 
 The script updates and pushes the change live by activating the zone immediately. So please proceed with caution.
 
-You will find the .js script and the .txt file in this github directory, update your edgerc location and account SW accordingly.
+You will find the .js script and the .txt file in this github directory, update your edgerc location and account SW accordingly. 
+
+
+Note: for Akamai customers, there is no need of adding the Account Swithch-Key in the request path, since you may have only access to your Account. So you can remove the following section of the path: "?accountSwitchKey=${accountSwitchKey}"
+
+The path line will look like this: 
+
+Akamai employes:
+    `/config-dns/v2/zones/${zonename.trim()}?accountSwitchKey=${accountSwitchKey}`,
+Akamai Customers:
+    `/config-dns/v2/zones/${zonename.trim()}`,
+
