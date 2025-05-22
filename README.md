@@ -1,4 +1,4 @@
-# EDNS
+# EDNS Secondary Zones, update Master IPs
 PUT Secondary Zone Master Update By Zone List Items.
 
 The Script uses NodeJS, you can download it at: https://nodejs.org/en/download
