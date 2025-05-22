@@ -7,7 +7,7 @@ The script uses a .txt file as an input, the file needs to have all the list of 
 
 myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3
 
-If you want to add more IP add them separated by a pipe:
+If you want to add more IPs add them separated by a pipe:
 
 myzone.com,SECONDARY,1.1.1.1|2.2.2.2|3.3.3.3|4.4.4.4
 
