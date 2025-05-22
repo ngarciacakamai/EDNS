@@ -25,7 +25,7 @@ Note: for Akamai customers, there is no need of adding the Account Swithch-Key i
 
 The path line will look like this: 
 
-Akamai employes:
+Akamai employees:
     `/config-dns/v2/zones/${zonename.trim()}?accountSwitchKey=${accountSwitchKey}`,
 
 Akamai Customers:
